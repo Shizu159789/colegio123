@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actividades - Colegio La Primera</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4fff4;
+    color:#222;
+}
+
+/* ===== MENÚ ===== */
+
+nav{
+    background:#198754;
+    padding:15px 30px;
+    position:sticky;
+    top:0;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+    z-index:1000;
+}
+
+.menu{
+    display:inline-block;
+    position:relative;
+}
+
+.menu button{
+    background:white;
+    color:#198754;
+    border:none;
+    padding:12px 30px;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.menu button:hover{
+    background:#d7ffe2;
+}
+
+.menu-content{
+    display:none;
+    position:absolute;
+    background:white;
+    width:220px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,.3);
+}
+
+.menu-content a{
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    color:#198754;
+    font-weight:bold;
+}
+
+.menu-content a:hover{
+    background:#d7ffe2;
+}
+
+.menu:hover .menu-content{
+    display:block;
+}
+
+/* ===== ENCABEZADO ===== */
+
+header{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:48px;
+}
+
+header p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+/* ===== TARJETAS ===== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-left:8px solid #198754;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 6px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#198754;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.8;
+    text-align:justify;
+}
+
+footer{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="menu">
+
+<button>☰ MENÚ</button>
+
+<div class="menu-content">
+
+<a href="colegio.html">🏠 Colegio "Mision/Vision"</a>
+<a href="colegio La Primera.html">📅 Bienvenida</a>
+<a href="panel informativo.html">🖼️ Panel informativo</a>
+<a href="formularios.html">☎ Formularios</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<header>
+
+<h1>ACTIVIDADES DEL COLEGIO "LA PRIMERA"</h1>
+
+<p>
+Conoce las principales actividades cívicas, culturales y recreativas
+realizadas por los estudiantes durante la gestión escolar.
+</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🎭 Carnaval</h2>
+<p>
+Durante el Carnaval se realizaron juegos recreativos, concurso de disfraces,
+campeonatos deportivos, baile, música, dinámicas grupales y una convivencia
+entre estudiantes para fortalecer la amistad y el compañerismo.
+</p>
+</div>
+
+<div class="card">
+<h2>👨 19 de marzo - Día del Padre</h2>
+<p>
+Los estudiantes organizaron un acto especial con canciones, poemas,
+coreografías, tarjetas, juegos familiares y un reconocimiento a los padres por
+su esfuerzo y dedicación.
+</p>
+</div>
+
+<div class="card">
+<h2>✝ Semana Santa</h2>
+<p>
+Se realizaron dramatizaciones, reflexiones, exposiciones, lectura de valores,
+trabajos grupales y actividades enfocadas en el respeto, la solidaridad y la
+convivencia escolar.
+</p>
+</div>
+
+<div class="card">
+<h2>🧒 12 de abril - Día del Niño</h2>
+<p>
+El colegio organizó juegos tradicionales, carreras de obstáculos,
+concursos, pintacaritas, música, entrega de dulces y premios para todos los
+niños y niñas.
+</p>
+</div>
+
+<div class="card">
+<h2>🌹 27 de mayo - Día de la Madre</h2>
+<p>
+Se presentó un programa especial con danzas, poesías, canciones,
+entrega de recuerdos elaborados por los estudiantes y juegos para compartir con
+las madres de familia.
+</p>
+</div>
+<div class="card">
+<h2>👩‍🏫 6 de junio - Día del Maestro</h2>
+<p>
+Los estudiantes organizaron un acto de homenaje con palabras de agradecimiento,
+presentaciones musicales, danzas, juegos recreativos y la entrega de pequeños
+obsequios para reconocer la labor de los maestros.
+</p>
+</div>
+
+<div class="card">
+<h2>🇧🇴 6 de agosto - Día de la Independencia de Bolivia</h2>
+<p>
+El colegio participó en el desfile cívico, el acto protocolar, la entonación del
+Himno Nacional, declamaciones, exposiciones históricas y presentaciones de
+danzas folklóricas representando la cultura boliviana.
+</p>
+</div>
+
+<div class="card">
+<h2>🚩 17 de agosto - Día de la Bandera</h2>
+<p>
+Se realizó el izado de la bandera, un acto cívico con discursos, concursos de
+conocimientos sobre los símbolos patrios, lectura de poesías y participación de
+todos los estudiantes.
+</p>
+</div>
+
+<div class="card">
+<h2>🎓 21 de septiembre - Día del Estudiante</h2>
+<p>
+Se desarrollaron campeonatos deportivos, concursos de talentos, juegos
+recreativos, karaoke, bailes, dinámicas grupales y una convivencia para celebrar
+el Día del Estudiante.
+</p>
+</div>
+
+<div class="card">
+<h2>🕯 1 y 2 de noviembre - Todos Santos</h2>
+<p>
+Los estudiantes participaron en una feria cultural, elaboraron masitas
+tradicionales, presentaron exposiciones sobre las costumbres bolivianas,
+realizaron concursos y compartieron actividades relacionadas con esta tradición.
+</p>
+</div>
+
+</div>
+
+<footer>
+
+<h2>Colegio "La Primera"</h2>
+
+<p>
+Página dedicada a las actividades cívicas, culturales y recreativas realizadas
+durante la gestión escolar.
+</p>
+
+<br>
+
+<p><strong>Gestión Escolar 2026</strong></p>
+
+</footer>
+
+</body>
+</html>

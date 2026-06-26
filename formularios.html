@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios - Colegio La Primera</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5fff5;
+}
+
+/* ===== MENÚ ===== */
+
+nav{
+    background:#198754;
+    padding:15px 30px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+
+.menu{
+    display:inline-block;
+    position:relative;
+}
+
+.menu button{
+    background:white;
+    color:#198754;
+    border:none;
+    padding:12px 30px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.menu-content{
+    display:none;
+    position:absolute;
+    background:white;
+    width:220px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.menu-content a{
+    display:block;
+    padding:15px;
+    color:#198754;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.menu-content a:hover{
+    background:#d9ffe1;
+}
+
+.menu:hover .menu-content{
+    display:block;
+}
+
+/* ===== ENCABEZADO ===== */
+
+header{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:45px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+/* ===== FORMULARIO ===== */
+
+.contenedor{
+    width:90%;
+    max-width:600px;
+    margin:50px auto;
+}
+
+.formulario{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    border-left:8px solid #198754;
+}
+
+.formulario h2{
+    color:#198754;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    color:#198754;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:2px solid #198754;
+    border-radius:8px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    background:#198754;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#157347;
+}
+
+footer{
+    margin-top:50px;
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="menu">
+
+<button>☰ MENÚ</button>
+
+<div class="menu-content">
+
+<a href="colegio.html">🏠 Colegio</a>
+<a href="actividades.html">📅 Actividades</a>
+<a href="panel informativo.html">🎯 Panel informativo</a>
+<a href="colegio La Primera.html">📝 Bienvenidos</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<header>
+
+<h1>FORMULARIOS</h1>
+
+<p>Colegio "La Primera"</p>
+
+</header>
+
+<div class="contenedor">
+
+<div class="formulario">
+
+<h2>Registro de Estudiantes</h2>
+
+<form>
+
+<label>Nombre del estudiante</label>
+<input type="text" placeholder="Ingrese su nombre" required>
+
+<label>Apellido del estudiante</label>
+<input type="text" placeholder="Ingrese su apellido" required>
+
+<label>Curso</label>
+<input type="text" placeholder="Ejemplo: 6° de Secundaria" required>
+
+<label>Número de Carnet</label>
+<input type="number" placeholder="Ingrese su C.I." required>
+
+<button type="submit">Enviar Formulario</button>
+
+</form>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>Colegio "La Primera"</h2>
+
+<p>Formulario de Registro - Gestión Escolar 2026</p>
+
+</footer>
+
+</body>
+</html>

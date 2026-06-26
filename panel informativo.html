@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel Informativo - Colegio La Primera</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5fff5;
+}
+
+/* ===== MENÚ ===== */
+
+nav{
+    background:#198754;
+    padding:15px 30px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+
+.menu{
+    display:inline-block;
+    position:relative;
+}
+
+.menu button{
+    background:white;
+    color:#198754;
+    border:none;
+    padding:12px 30px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.menu-content{
+    display:none;
+    position:absolute;
+    background:white;
+    width:220px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.menu-content a{
+    display:block;
+    padding:15px;
+    color:#198754;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.menu-content a:hover{
+    background:#d9ffe1;
+}
+
+.menu:hover .menu-content{
+    display:block;
+}
+
+/* ===== ENCABEZADO ===== */
+
+header{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+header h1{
+    font-size:45px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+/* ===== IMÁGENES ===== */
+
+.galeria{
+    width:90%;
+    max-width:1100px;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.imagen{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.imagen:hover{
+    transform:translateY(-8px);
+}
+
+.imagen img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.imagen h2{
+    text-align:center;
+    color:#198754;
+    padding:20px;
+}
+
+/* ===== PIE ===== */
+
+footer{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="menu">
+
+<button>☰ MENÚ</button>
+
+<div class="menu-content">
+
+<a href="colegio.html">🏠 Colegio Visión y Misión</a>
+<a href="actividades.html">📅 Actividades</a>
+<a href="colegio La Primera.html">🎯 Bienvenida</a>
+<a href="formularios.html">📝 Formularios</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<header>
+
+<h1>PANEL INFORMATIVO</h1>
+
+<p>Colegio "La Primera"</p>
+
+</header>
+
+<section class="galeria">
+
+<div class="imagen">
+
+<img src="c:\Users\PC14\Desktop\la primera fe u alegría\IMG-20260524-WA0004_040032.jpg">
+
+<h2>Instalaciones del Colegio</h2>
+
+</div>
+
+<div class="imagen">
+
+<img src="c:\Users\PC14\Desktop\la primera fe u alegría\IMG-20260525-WA0019.jpg">
+
+<h2>Comunidad Estudiantil</h2>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Colegio "La Primera"</h2>
+
+<p>Panel Informativo - Gestión Escolar 2026</p>
+
+</footer>
+
+</body>
+</html>
